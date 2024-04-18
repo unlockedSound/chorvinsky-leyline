@@ -1,8 +1,8 @@
 import React from 'react';
 
-const SidePanel = () => {
+const SidePanelMobile = () => {
     return (
-        <div className=" hidden lg:block min-w-fit sticky top-0 h-full bg-gray-100 w-64 overflow-y-auto">
+        <div className=" lg:hidden min-w-fit h-full w-64 mx-auto mt-4">
             <div className="p-4">
                 <h2 className="text-lg font-semibold mb-4">Posts</h2>
                 <ul className="space-y-2">
@@ -20,4 +20,4 @@ const SidePanel = () => {
     );
 };
 
-export default SidePanel;
+export default SidePanelMobile;

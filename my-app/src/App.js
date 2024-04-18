@@ -1,17 +1,19 @@
 import './App.css';
-import './output.css';
+import './index.css';
 import Header from './components/Header';
 import BlogPost from "./components/BlogPost";
 import SidePanel from "./components/SidePanel";
+import SidePanelMobile from "./components/SidePanelMobile";
 
 function App() {
     return (
         <div className="">
             <Header/>
-            <div className="container">
-                <div className="flex mx-auto py-8 px-4">
+            <div className="">
+                <SidePanelMobile/>
+                <div className="flex mx-auto py-0 lg:py-8 px-4 justify-start">
                     <SidePanel/>
-                    <div className="">
+                    <div className="mx-auto max-w-screen-md">
                         <BlogPost
                             id="AlcernsLighthouse"
                             title="The Mists of Alcern's Lighthouse"
