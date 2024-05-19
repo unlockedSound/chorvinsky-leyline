@@ -14,6 +14,12 @@ const SidePanelMobile = () => {
                         <a href="#FlowerSorcerer" className="text-blue-600 hover:underline">Legend of the Flower
                             Sorcerer</a>
                     </li>
+                    <li>
+                        <a href="#OrthiAndTheOni" className="text-blue-600 hover:underline">Orthi and the Oni</a>
+                    </li>
+                    <li>
+                        <a href="#TheTwoStorytellers" className="text-blue-600 hover:underline">The Two Storytellers</a>
+                    </li>
                 </ul>
             </div>
         </div>
