@@ -20,6 +20,9 @@ const SidePanelMobile = () => {
                     <li>
                         <a href="#TheTwoStorytellers" className="text-blue-600 hover:underline">The Two Storytellers</a>
                     </li>
+                    <li>
+                        <a href="#EnilsCoin" className="text-blue-600 hover:underline">Enil's Coin</a>
+                    </li>
                 </ul>
             </div>
         </div>
