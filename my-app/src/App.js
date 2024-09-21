@@ -9,6 +9,7 @@ import OrthiAndOni from "./components/posts/OrthiAndOni";
 import TwoStorytellers from "./components/posts/TwoStorytellers";
 import EnilsCoin from "./components/posts/EnilsCoin";
 import QueenAndScholar from "./components/posts/QueenAndScholar";
+import AMeetingOfWitches from "./components/posts/AMeetingOfWitches";
 function App() {
     return (
         <div className="dark:bg-gray-900">
@@ -24,6 +25,7 @@ function App() {
                         <TwoStorytellers/>
                         <EnilsCoin/>
                         <QueenAndScholar/>
+                        <AMeetingOfWitches/>
                     </div>
                 </div>
             </div>
