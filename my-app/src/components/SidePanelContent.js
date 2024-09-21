@@ -26,6 +26,9 @@ const SidePanelContent = () => {
                     <li>
                         <a href="#QueenAndScholar" className="text-blue-600 hover:underline">The Queen and the Scholar</a>
                     </li>
+                    <li>
+                        <a href="#AMeetingOfWitches" className="text-blue-600 hover:underline">A Meeting of Witches</a>
+                    </li>
                 </ul>
             </div>
 
